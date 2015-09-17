@@ -643,12 +643,27 @@ Javascript disabled
   color: black;
   border-color: black;
   font-weight: bold;
+  /*opacity: 0.3;
+  background-color: white;*/
 }
 
 .h2-white {
   color: white;
   border-color: white;
   font-weight: bold;
+  /*opacity: 0.3;
+  background-color: black;*/
+}
+
+.black-div {
+  position:absolute;
+  top:250px;
+  left:140px;
+  width:500px;
+  height:50px;
+  background-color:black;
+  z-index:0;
+  opacity:0.5;
 }
 
 .img-responsive {
@@ -659,4 +674,15 @@ Javascript disabled
 
 .hidden {
   display: none;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }

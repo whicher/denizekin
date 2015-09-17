@@ -179,24 +179,32 @@ Main content
   display: table-cell;
   vertical-align: middle;
 }
-.cd-item:nth-of-type(1) {
-  background-color: #363558;
-  background-image: url('../img/davetiye.jpg');
+
+.non-repeating-bg {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.cd-item:nth-of-type(1) {
+  background-color: #363558;
+  background-image: url('../img/davetiye.jpg');
   color: black;
   font-weight: bold;
 }
-.c:nth-of-type(2) {
+.cd-item:nth-of-type(2) {
   background-color: #544173;
+  background-image: url('../img/1.jpg');
 }
 .cd-item:nth-of-type(3) {
-  background-color: #dadcdc;
+  /*background-color: #dadcdc;*/
+  background-image: url('../img/2.jpg');
 }
 .cd-item:nth-of-type(4) {
   background-color: #65d29b;
+  /*background-image: url('../img/3.jpg');*/
+  background-image: url('../img/yol_tarifi_lq-compressor.png');
 }
 .cd-item h2 {
   font-size: 2.2rem;
@@ -622,4 +630,24 @@ Javascript disabled
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
   transform: translateY(0);
+}
+
+.div-weather {
+  text-align: center;
+  margin-left: auto ;
+  margin-right: auto ;
+  max-width: auto!important;
+  /*margin-left: 100px;*/
+}
+
+.h2-black {
+  color: black;
+  border-color: black;
+  font-weight: bold;
+}
+
+.h2-white {
+  color: white;
+  border-color: white;
+  font-weight: bold;
 }

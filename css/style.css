@@ -189,7 +189,8 @@ Main content
 
 .cd-item:nth-of-type(1) {
   background-color: #363558;
-  background-image: url('../img/davetiye.jpg');
+  /*background-image: url('../img/davetiye.jpg');*/
+  background-image: url('../img/2.jpg');
   color: black;
   font-weight: bold;
 }
@@ -199,7 +200,7 @@ Main content
 }
 .cd-item:nth-of-type(3) {
   /*background-color: #dadcdc;*/
-  background-image: url('../img/2.jpg');
+  background-image: url('../img/8.jpg');
 }
 .cd-item:nth-of-type(4) {
   background-color: #65d29b;

@@ -656,11 +656,3 @@ Javascript disabled
   display: block;
   height: auto;
 }
-
-ul.c {
-  list-style-type: square;
-}
-
-ul > li {
-  margin: 10px;
-}

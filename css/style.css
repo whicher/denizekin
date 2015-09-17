@@ -637,7 +637,6 @@ Javascript disabled
   margin-left: auto ;
   margin-right: auto ;
   max-width: auto!important;
-  /*margin-left: 100px;*/
 }
 
 .h2-black {
@@ -656,10 +655,6 @@ Javascript disabled
   max-width: 100%; 
   display: block;
   height: auto;
-}
-
-.ul-cautions {
-  list-style-type: myanmar;
 }
 
 ul.c {

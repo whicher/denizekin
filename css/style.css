@@ -661,3 +661,11 @@ Javascript disabled
 .ul-cautions {
   list-style-type: myanmar;
 }
+
+ul.c {
+  list-style-type: square;
+}
+
+ul > li {
+  margin: 10px;
+}

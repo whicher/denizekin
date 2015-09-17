@@ -656,3 +656,7 @@ Javascript disabled
   display: block;
   height: auto;
 }
+
+.hidden {
+  display: none;
+}

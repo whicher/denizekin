@@ -51,6 +51,8 @@ jQuery(document).ready(function($){
 				}, 100);
 				
 			});
+
+			$('.div-weather').addClass('hidden');
 		} else {
 			/* close the folding panel */
 			var mq = viewportSize();
@@ -65,6 +67,7 @@ jQuery(document).ready(function($){
 					$('body').removeClass('overflow-hidden');
 					mainContent.find('.cd-item').eq(0).off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
 				});
+				$('.div-weather').removeClass('hidden');
 		}
 		
 	}
